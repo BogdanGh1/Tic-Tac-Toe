@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background-color: #12181B;
+}
+#container{
+    margin: auto;
+    position: relative;
+    top: 50px;
+    width: 540px;
+    height: 540px;
+    background-color: burlywood;
+}
+
+.cell{
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    background-color: cadetblue;
+}
+
+.cell p{
+    font-size: 90px;
+    position: absolute;
+    top: -50px;
+    left: 60px;
+    
+}
+
+.cell:hover{
+    background-color: yellow;
+}
+
+#score{
+    margin: auto;
+    position: relative;
+    width: 200px;
+    height: 100px;
+    top: 100px;
+    font-size: 90px;
+    text-align: center;
+    color: white;
+    
+}
